@@ -394,7 +394,7 @@ of code below the Schedule `<h2>` header below with
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in 
 <a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. The schedule below is an estimate of the workshop topics and timings.
-{% include _includes/custom-schedule.html %}
+{% include custom-schedule.html %}
 {% endif %}
 
 {% comment %}
