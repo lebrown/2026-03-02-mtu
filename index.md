@@ -342,8 +342,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 {% if site.carpentry == "incubator" %}
-<p><a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a></p>
+<p><a href="https://forms.gle/4XsEpN3xrZfXgn489">Pre-workshop Survey</a></p>
+<p><a href="https://forms.gle/3Bm5rpcHfabKJc866">Post-workshop Survey</a></p>
 {% elsif site.incubator_pre_survey or site.incubator_post_survey %}
 <div class="alert alert-danger">
 WARNING: you have defined custom pre- and/or post-survey links for
@@ -393,7 +393,8 @@ of code below the Schedule `<h2>` header below with
 {% include lc/schedule.html %}
 {% elsif site.carpentry == "incubator" %}
 This workshop is teaching a lesson in 
-<a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. Please check <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for a list of lesson sections and estimated timings.
+<a href="https://carpentries-incubator.org/">The Carpentries Incubator</a>. The schedule below is an estimate of the workshop topics and timings.
+{% include _includes/custom-schedule.html %}
 {% endif %}
 
 {% comment %}
