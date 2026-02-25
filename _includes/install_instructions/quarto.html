@@ -1,0 +1,91 @@
+<div id="quarto">
+  <h3>Quarto</h3>
+
+  <p>
+    <a href="https://quarto.org/">Quarto</a> is a scientific and technical publishing system built on Pandoc that we will use in RStudio. Quarto has been bundled with RStudio in recent versions. If you have the most up-to-date RStudio version, you shouldn’t to install Quarto.
+  </p>
+
+  <div class="alert alert-info">
+    <div id="version-clarifications-on-quarto-and-rrstudio" class="callout-inner">
+      <h3 class="callout-title">Version clarifications on Quarto and
+        R/Rstudio</h3>
+      <div class="callout-content">
+      <p>If you already have RStudio and R installed, please check if you have the most recent RStudio version and at least R version <strong>4.3</strong>, along with Quarto version <strong>1.3.45</strong> at least. The quarto document will not render without these recent versions. <strong>The Quarto Package is not the CLI</strong>.</p>
+      <p>You can check if you have the correct Quarto version by typing the following in the RStudio terminal:</p>
+      <pre class="source"><code>quarto --version</code></pre>
+      <p>Your output should be:</p>
+
+      <pre class="output" tabindex="0">
+<code>quarto --version
+1.4</code></pre>
+
+    </div>
+</div>
+</div>
+
+
+
+
+<h3 id="r-packages">R Packages<a class="anchor" aria-label="anchor" href="#r-packages"></a></h3>
+<p>Install the following packages in RStudio: <code>rmarkdown</code>,
+<code>tidyverse</code>,<code>BayesFactor</code>, <code>patchwork</code>.
+We will be covering the purpose of using packages and recap different
+ways to install and manage them in RStudio. Nonetheless, pre-installing
+the packages we will use for this workshop will save us some precious
+time, since installation time may vary among learners. Here are the
+steps for two possible approaches you may follow for completing this
+process:</p>
+
+
+</div>
+  <div>
+    <ul class="nav nav-tabs os-tabs" role="tablist" >
+      <li role="presentation" class="active"><a data-os="Using Menus and Tabs" href="#r-packages-menus" aria-controls="Menus" role="tab" data-toggle="tab">Using Menus and Tabs</a></li>
+      <li role="presentation"><a data-os="Using the Console" href="#r-packages-console" aria-controls="Console" role="tab" data-toggle="tab">Using the Console</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <article role="tabpanel" class="tab-pane outer-tab active" id="r-packages-menus">
+        <p>Open RStudio</p>
+        <p>Select from the upper menu
+          <code>Tools &gt; Install packages...</code> or click on the
+          <code>Packages</code> tab in the bottom-right section and then click on install. Either action will prompt a box dialog.
+        </p>
+        <p>In the <code>Install Packages</code> dialog box, copy this text
+          <code>rmarkdown, tidyverse, BayesFactor, patchwork</code> under the Packages field, make sure the option <code>install dependencies</code> is selected, keep other information unchanged, and then click <code>install</code>.
+        </p>
+        <p>Don’t be alarmed by the stop sign that will blink (and do not click on it, otherwise you will cancel the process) or the red text messages. Once the process completes, the cursor will be preceded by a greater-than sign <code>&gt;</code>.
+        </p>
+        <ol style="list-style-type: decimal">
+          <li><p>Open RStudio</p></li>
+          <li><p>Select from the upper menu <code>Tools &gt; Install packages...</code> or click on the <code>Packages</code> tab in the bottom-right section and then click on install. Either action will prompt a box dialog.</p></li>
+          <li><p>In the <code>Install Packages</code> dialog box, copy this text <code>rmarkdown, tidyverse, BayesFactor, patchwork</code> under the Packages field, make sure the option <code>install dependencies</code> is selected, keep other information unchanged, and then click <code>install</code>.</p></li>
+          <li><p>Don’t be alarmed by the stop sign that will blink (and do not click on it, otherwise you will cancel the process) or the red text messages. Once the process completes, the cursor will be preceded by a greater-than sign <code>&gt;</code>.</p></li>
+        </ol>
+      </article>
+
+      <article role="tabpanel" class="tab-pane" id="r-packages-console">
+        <p>Copy and paste each of the following functions to the console and wait for the process to complete:</p>
+        <div class="codewrapper sourceCode" id="cb3">
+          <pre class="downlit sourceCode r">
+<code class="sourceCode R">install.packages("rmarkdown")
+install.packages("tidyverse")
+install.packages("BayesFactor")
+install.packages("patchwork")
+</code></pre>
+        </div>
+        <p></p>
+        <p>or instead</p>
+        <div class="codewrapper sourceCode" id="cb4">
+          <pre class="downlit sourceCode r">
+install.packages(c("rmarkdown", "tidyverse", "BayesFactor", "patchwork"))</code></pre>
+        </div>
+      </article>
+
+    </div>
+  </div>
+
+
+
+
+
