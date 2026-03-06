@@ -409,7 +409,42 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 {% endcomment %}
 
 <hr/>
+<h2 id="resources">Resources</h2>
 
+Quarto References:
+<ul>
+  <li><a href="https://quarto.org/">Quarto</a></li>
+  <li><a href="https://quarto.org/docs/guide/">Quarto Documentation</a></li>
+  <li><a href="https://quarto.org/docs/presentations/revealjs/"> Quarto Slides </a></li>
+  <li><a href="https://github.com/lebrown/quarto_presentation_demo"> Quarto Slides Demo (GitHub repo) </a></li>
+  <li><a hrer="https://www.r-bloggers.com/2025/02/creating-r-python-stata-and-julia-tutorial-worksheets-with-and-without-solutions-using-quarto/">Creating worksheets (with and without solutions) using Quart</a></li>
+</ul>
+
+
+Quarto Styling, Themes, and Examples:
+<ul>
+  <li><a href="https://thomasmock.quarto.pub/reports-presentations/#/title-slide">Beautiful Reports and Presentations with Quarto</a></li>
+  <li><a href="https://emilhvitfeldt.com/project/slidecraft-101/#blog-posts">Slidecraft 101 </a></li>
+  <li><a href="https://github.com/grantmcdermott/quarto-revealjs-clean">Quart Clean Theme </a></li>
+
+</ul>
+
+
+Reproducible Research References:
+<ul>
+  <li><a href="https://docs.google.com/presentation/d/1obK8X5GbSc6UciT5kBja0GW_BEsMtJvpHpMpCiXXqgU/edit?usp=sharing">Reproducible Research presentation</a></li>
+  <li><a href="https://book.the-turing-way.org/">The Turing Way - handbook for reproducible, ethical, and collaborative data science</a></li>
+</ul>
+
+
+Tools to Help with Reproducible Projects:
+<ul>
+  <li><a href="https://github.com/ropensci/rix">rix: Reproducible Environments with Nix (for R)</a></li>
+  <li><a href="https://docs.astral.sh/uv/">uv: A Python package and project manager (for Python)</a></li>
+</ul>
+
+
+<hr/>
 
 {% comment %}
 SETUP
